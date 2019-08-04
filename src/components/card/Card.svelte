@@ -7,7 +7,6 @@
     position: relative;
     padding: 16px;
     border-radius: 4px;
-    margin: 60px;
     background: white;
   }
 </style>

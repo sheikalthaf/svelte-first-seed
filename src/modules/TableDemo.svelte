@@ -1,10 +1,12 @@
 <script>
   import { onDestroy } from "svelte";
-  import Table from "../components/table/Table.svelte";
-  import TableHead from "../components/table/TableHead.svelte";
-  import TableBody from "../components/table/TableBody.svelte";
-  import TableRow from "../components/table/TableRow.svelte";
-  import TableCell from "../components/table/TableCell.svelte";
+  import {
+    Table,
+    TableHead,
+    TableBody,
+    TableRow,
+    TableCell
+  } from "../components/table";
 
   function createData(name, calories, fat, carbs, protein) {
     return { name, calories, fat, carbs, protein };
@@ -28,6 +30,8 @@
 <style>
 
 </style>
+
+<h1 class="common-header">Table</h1>
 
 <Table>
   <TableHead>

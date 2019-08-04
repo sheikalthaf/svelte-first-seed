@@ -66,3 +66,55 @@ button:active {
 button:focus {
   border-color: #666;
 }
+
+.svtooltip {
+  position: fixed;
+  background: rgba(96, 94, 94, 0.8588235294117647);
+  color: white;
+  padding: 4px 13px;
+  border-radius: 6px;
+}
+
+/* Dialog */
+
+.app231234 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.32);
+  padding: 100px;
+}
+
+/*  Ripple */
+
+.ripple-block {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple {
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  transform: scale(0);
+  position: absolute;
+  opacity: 1;
+}
+
+.rippleEffect {
+  animation: rippleDrop 0.4s linear;
+}
+
+@keyframes rippleDrop {
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.common-header {
+  font-weight: bolder;
+  margin: 0 0 20px;
+}
