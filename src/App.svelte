@@ -11,6 +11,7 @@
   import TableDemo from "./modules/TableDemo.svelte";
   import RadioButtonDemo from "./modules/RadioButtonDemo.svelte";
   import CheckboxDemo from "./modules/CheckboxDemo.svelte";
+  import TooltipDemo from "./modules/TooltipDemo.svelte";
 
   let menus = [
     ["/", HomeDemo],
@@ -26,7 +27,7 @@
     ["Toolbar", AccordionDemo],
     ["RadioButton", RadioButtonDemo],
     ["Checkbox", CheckboxDemo],
-    ["Tooltip", AccordionDemo]
+    ["Tooltip", TooltipDemo]
   ];
 </script>
 

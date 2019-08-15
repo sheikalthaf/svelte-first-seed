@@ -3,7 +3,7 @@
 </script>
 
 <style>
-  div {
+  .sve-list {
     height: 48px;
     display: flex;
     align-items: center;
@@ -11,6 +11,6 @@
   }
 </style>
 
-<div use:ripple>
+<div use:ripple class="sve-list">
   <slot />
 </div>

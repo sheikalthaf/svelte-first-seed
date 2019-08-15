@@ -1,5 +1,8 @@
 <script>
   import tooltip from "../components/tooltip/Tooltip.js";
+  import Card from "../components/card/Card.svelte";
 </script>
 
-<div use:tooltip={'Hover me'}>Tester</div>
+<Card>
+  <span use:tooltip={"I'm tooltip"}>Hover me</span>
+</Card>

@@ -1,1 +1,1 @@
-<div>test</div>
+<div>This is home page.</div>
